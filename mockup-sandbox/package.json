@@ -42,6 +42,7 @@
     "@types/node": "catalog:",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
+    "@vercel/analytics": "^2.0.1",
     "@vitejs/plugin-react": "catalog:",
     "chokidar": "^4.0.3",
     "class-variance-authority": "catalog:",
