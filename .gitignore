@@ -1,0 +1,93 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml.backup
+*.pnpm-debug.log
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+.turbo/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+.DS_Store
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.sublime-workspace
+.sublime-project
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+Thumbs.db
+.DS_Store
+*.pem
+*.key
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# PM2 logs and pids
+pm2.log
+pm2.pid
+logs/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Vercel
+.vercel
+.output
+
+# Cache
+.cache/
+.eslintcache
+
+# Replit artifacts (already packaged)
+.replit-artifact/
+.replit
+
+# Expo
+.expo/
+.expo-shared/
+
+# Generated API clients (if regenerated)
+/lib/api-client-react/generated/
